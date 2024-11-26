@@ -1,0 +1,15 @@
+name = "codeforge11/rosetoy"
+version = "0.1.1"
+description = "Prints rose toy"
+authors = ["codeforge11"]
+repository = "https://github.com/codeforge11/pesde-rosetoy"
+license = "MIT"
+includes = ["pesde.toml","README.md","bin.luau","lib.luau"]
+
+[target]
+environment = "luau"
+lib = "lib.luau"
+bin = "bin.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
